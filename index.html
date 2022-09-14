@@ -28,17 +28,17 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    #perfumeimg{
+    .perfumeimg{
       float: left;
       width: 55%;
       height: 96%;
       border-top-left-radius: 2%;
       border-bottom-left-radius: 2%;
     }
-    #container{
+    .container{
       padding-left: 55%;
     }
-    #perfume{
+    .perfume{
       color: gray;
       font-weight: 500;
       letter-spacing: 5px;
@@ -47,14 +47,14 @@
       font-size: 100%;
       margin-bottom: -4%;
     }
-    #h1text{
+    .h1text{
       font-family: 'Fraunces', serif;
       width: 700;
       font-size: 246%;
       margin-bottom: -3%;
       line-height: 95%;
     }
-    #paragraph{
+    .paragraph{
       color: gray;
       line-height: 160%;
       font-family: 'Montserrat', sans-serif;
@@ -66,7 +66,7 @@
       margin-right: -40%;
       line-height: 135%;
     }
-    #icon{
+    .icon{
       margin-right: -50%;
       margin-top: 1%;
       max-width: 15%;
@@ -76,18 +76,18 @@
       width: 10%;
       height: 10%;
     }
-    #mainprice{
+    .mainprice{
       color: hsl(158, 36%, 37%);
       font-size: 40px;
     }
-    #secondprice{
+    .secondprice{
       color: gray;
       text-decoration: line-through;
       float: right;
       margin-top: -29%;
       margin-right: 10%;
     }
-    #button{
+    .button{
       background-color: hsl(158, 36%, 37%);
       font-family: 'Fraunces', serif;
       padding-left: 23%;
@@ -104,10 +104,10 @@
       margin-bottom: 13%;
       margin-top: -5%;
     }
-    #divtext{
+    .divtext{
       padding-left: 12%;
     }
-    #credits{
+    .credits{
       margin-top: 249px;
       background-color: hsl(30, 38%, 92%);
       margin-left: 25px;
@@ -116,22 +116,22 @@
 </head>
 <body>
   <article>
-    <img id="perfumeimg" src="image-product-desktop.jpg"  title="Gabrielle Essence Eau De Parfum">
-      <div id="container">
-          <div id="divtext">
-            <h3 id="perfume">PERFUME</h3>
-            <h1 id="h1text">Gabrielle <br> Essence Eau <br> De Parfum</h1>
-            <p id="paragraph">
+    <img class="perfumeimg" src="image-product-desktop.jpg"  title="Gabrielle Essence Eau De Parfum">
+      <div class="container">
+          <div class="divtext">
+            <h3 class="perfume">PERFUME</h3>
+            <h1 class="h1text">Gabrielle <br> Essence Eau <br> De Parfum</h1>
+            <p class="paragraph">
               A floral, solar and voluptuous <br> interpretation composed by <br> Olivier Polge, 
               Perfumer-Creator <br> for the House of CHANEL.
             </p>
-            <h2 id="mainprice">$149.99</h2> 
-            <h4 id="secondprice">$169.99</h4>
-            <p id="button"><img id="icon" src="icon-cart.svg"> Add to cart</p>
+            <h2 class="mainprice">$149.99</h2> 
+            <h4 class="secondprice">$169.99</h4>
+            <p class="button"><img class="icon" src="icon-cart.svg"> Add to cart</p>
           </div>
     </div><!--container-->
   </article>
-  <article id="credits">
+  <article class="credits">
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/Kauaguarinogabriell">Kaua Guarino</a>.
