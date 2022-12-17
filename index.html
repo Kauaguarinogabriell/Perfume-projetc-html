@@ -4,116 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
   <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="css/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    body{
-      background-color: hsl(30, 38%, 92%);
-    }
-    .attribution{
-      text-align: center;
-    }
-    .card{
-      display: flex;
-      margin: 0 auto;
-      margin-top: 100px;
-      border-radius: 10px;
-      width: 600px;
-      height: 450px;
-      background-color:hsl(0, 0%, 100%);
-    }
-    .imgcard{
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      width: 300px;
-      height: 450px;
-    }
-    .title{
-      font-size: 14px;
-      color: darkgray;
-      letter-spacing:5px;
-      margin-top: 25px;
-      font-family: 'Fraunces', serif;
-      font-weight: 700;
-    }
-    .mainp{
-      font-size: 33px;
-      line-height: 30px;
-      font-family: 'Fraunces', serif;
-      font-weight: 700;
-      margin-top: 20px;
-      
-    }
-    .secondp{
-      font-size: 16px;
-      color: gray;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-      line-height: 21px;
-      margin-top: -10px;
-    }
-    .texts{
-      margin-left: 35px;
-    }
-    .price{
-      margin-bottom: 30px;
-      font-size: 35px;
-      color: hsl(158, 36%, 50%);
-    }
-    .secondprice{
-      font-size: 15px;
-      margin-right: 70px;
-      margin-top: 8px;
-      text-decoration: line-through;
-      color: gray;
-      
-    }
-    .button{
-      text-decoration: none;
-      padding: 14px 65px 14px 65px;
-      background-color:hsl(158, 36%, 50%);
-      color: white;
-      border-radius: 7px;
-      font-size: 18px;
-    }
-    .button:hover{
-      transition: .5s;
-      background-color: hsl(158, 36%, 37%);
-    }
-    .iconcart{
-      padding-right: 15px;
-      margin-bottom: -2px;
-      width: 16px;
-    }
-  </style>
 </head>
 <body> 
   <main class="container">
+
     <article class="card">
-      <img class="imgcard" src="images/image-product-desktop.jpg" alt="Image Perfum">
-      <section class="texts">
-        <h1 class="title">PERFUME</h1>
+      <div class="left-div">
+        <picture>
+          <source srcset="css/image-product-desktop.jpg" media="(min-width: 768px)" alt="Image Perfum">
+          <source srcset="css/image-product-mobile.jpg" media="(min-width: 374px)" alt="Image Perfum">
+          <img src="css/image-product-desktop.jpg" alt="Image Perfum" class="img">
+        </picture>
+      </div>
 
-        <p class="mainp" >Gabrielle<br> Essence Eau<br> De Parfum</p>
+
+      <div class="right-div">
+        <h4>PERFUME</h4>
+
+        <p class="mainp" >Gabrielle Essence Eau De Parfum</p>
               
-
-        <p class="secondp">A floral, solar and voluptuous<br> interpretation composed by<br> Olivier Polge, 
-        Perfumer-Creator<br> for the House of CHANEL.</p>
+        <p class="secondp">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
 
         <p class="price">$149.99  <span class="secondprice">$169.99</span></p>
-        <a class="button" href="#"><img class="iconcart" src="images/icon-cart.svg" >Add to cart</a>
-      </section>
+        <a class="button" href="#"><img class="iconcart" src="css/icon-cart.svg" >Add to cart</a>
+      </div>
     </article>
+
   </main>  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Kauaguarinogabriell">Kaua Guarino</a>.
-  </div>
 </body>
 </html>
