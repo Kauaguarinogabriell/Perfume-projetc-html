@@ -4,37 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="images/style.css">
   <title>Frontend Mentor | Product preview card component</title>
-  <link rel="stylesheet" href="css/style.css">
-
 </head>
-<body> 
-  <main class="container">
+<body>
+  <section>
+    <img src="images/image-product-desktop.jpg" alt="image-product-Perfum">
+    <main>
+      <span class="perfume">Perfume</span>
 
-    <article class="card">
-      <div class="left-div">
-        <picture>
-          <source srcset="css/image-product-desktop.jpg" media="(min-width: 768px)" alt="Image Perfum">
-          <source srcset="css/image-product-mobile.jpg" media="(min-width: 374px)" alt="Image Perfum">
-          <img src="css/image-product-desktop.jpg" alt="Image Perfum" class="img">
-        </picture>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.</p>
+
+      <div class="prices">
+        <span class="price">$149.99</span>
+        <s>$169.99</s>
       </div>
 
-
-      <div class="right-div">
-        <h4>PERFUME</h4>
-
-        <p class="mainp" >Gabrielle Essence Eau De Parfum</p>
-              
-        <p class="secondp">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL.</p>
-
-        <p class="price">$149.99  <span class="secondprice">$169.99</span></p>
-        <a class="button" href="#"><img class="iconcart" src="css/icon-cart.svg" >Add to cart</a>
-      </div>
-    </article>
-
-  </main>  
+      <a class="btn" href="#"><span><img src="images/icon-cart.svg" alt="icon-cart"></span> Add to Cart</a>
+    </main>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kauã Guarino</a>.
+  </div>
 </body>
 </html>
