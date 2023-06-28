@@ -83,5 +83,20 @@ s{
     border-radius: 8px;
 }
 
+
+@media (max-width: 768px){
+
+    section{
+        flex-direction: column;
+    }
+
+    section > img{
+        border-radius: 1rem 1rem 0rem 0rem;
+        width: 300px;
+    }
+
+
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
