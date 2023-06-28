@@ -2,6 +2,7 @@
 
 
 
+## Desktop And Tablet Visual:
+![perfum](https://github.com/Kauaguarinogabriell/Perfume-projetc-html/assets/111528352/0214d3fd-a807-4f4d-9bbb-4fb5646280ec)
 
-![perfum](https://user-images.githubusercontent.com/111528352/208249897-6f73c0b8-3a39-45b0-85cd-ce92bb9f2263.png)
-online page link: https://kauaguarinogabriell.github.io/Perfume-projetc-html/
+### online page link: https://kauaguarinogabriell.github.io/Perfume-projetc-html/
